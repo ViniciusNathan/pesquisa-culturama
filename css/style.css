@@ -67,6 +67,16 @@ input, select, textarea {
     border-radius: 8px;
 }
 
+input[type='tel'],
+input[type='file'] {
+    margin-bottom: 0;
+}
+
+small {
+    display: block;
+    margin-bottom: 16px;
+}
+
 textarea {
     min-height: 100px;
 }
