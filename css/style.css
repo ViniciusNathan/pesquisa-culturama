@@ -48,3 +48,28 @@ legend {
     padding: 0 8px;
 }
 
+label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 24px;
+    border: 1px solid #555;
+    border-radius: 8px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+    width: auto;
+}
+
+input[type='color'] {
+    width: 40px;
+}
